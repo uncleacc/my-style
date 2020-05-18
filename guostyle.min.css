@@ -4090,6 +4090,7 @@ li.feature-2 {
     color:#2c3e50
 }
 .header-info {
+    box-shadow:0px 0px 20px 7px #ffffff;
     width:63%;
     margin:auto;
     font-size:16px;
