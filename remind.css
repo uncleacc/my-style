@@ -1,0 +1,42 @@
+.tip.share {
+    border-left-color: rgb(238, 5, 5);
+    background: #fff;
+}
+.tip {
+    display:block;
+    background: #fff;
+    padding: 8px 20px;
+    position: relative;
+    margin: 0 0 20px;
+ 
+    font-family: Georgia, serif;
+    font-size: 16px;
+    line-height: 1.2;
+    color: #666;
+    text-align: justify;
+    border-left: 5px solid      #3CB371;
+ 
+    /*盒子阴影 - (选项)*/
+    -moz-box-shadow: 2px 2px 15px #ccc;
+    -webkit-box-shadow: 2px 2px 15px #ccc;
+    box-shadow: 2px 2px 15px #ccc;
+}
+.tip.share:before {
+    background: #ddd;
+    content: "🐷";
+}
+.tip:before {
+    background: #38a3fd;
+    border-radius: 50%;
+    color: #fff;
+    content: "i";
+    font-family: Dosis,"Source Sans Pro","Helvetica Neue",Arial,sans-serif;
+    font-size: 16px;
+    height: 21px;
+    line-height: 21px;
+    margin-left: -32px;
+    margin-top: 8px;
+    position: absolute;
+    text-align: center;
+    width: 21px;
+}
