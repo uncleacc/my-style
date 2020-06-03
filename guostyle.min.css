@@ -2733,8 +2733,8 @@ i.iconfont.hotpost {
     padding-left: 20px
 }
 
-.entry-content h2:after {
-    content: "Ⅰ";/*\00B6*/
+.entry-content h2:after {h
+    content: '🎉';/*\00B6*/
     position: absolute;
     color: #ff6d6d;
     font-family: 'Merriweather Sans', Helvetica, Tahoma, Arial, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft Yahei', 'WenQuanYi Micro Hei', sans-serif;
@@ -2743,7 +2743,7 @@ i.iconfont.hotpost {
 }
 
 .serif .entry-content h2:after {
-    content: "Ⅱ";
+    content: '📌';
     position: absolute;
     color: #ff6d6d;
     font-family: 'Merriweather Sans', Helvetica, Tahoma, Arial, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft Yahei', 'WenQuanYi Micro Hei', sans-serif;
@@ -2752,7 +2752,7 @@ i.iconfont.hotpost {
 }
 
 .entry-content h3:after {
-    content: "Ⅲ";
+    content: "🏷";
     left: 0;
     position: absolute;
     color: #ff6d6d
