@@ -1110,7 +1110,7 @@ h6 {
 
 p {
     margin-bottom: 1.5em;
-    font-size: 15px;
+    font-size: 16px;
     cursor: url(https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cursor/texto.cur), auto
 }
 
@@ -1127,7 +1127,7 @@ blockquote {
     padding: 15px 20px 15px 45px;
     margin: 0 0 20px;
     position: relative;
-    font-family: Georgia, serif;
+    font-family: Georgia;
     font-size: 16px;
     line-height: 1.2;
     color: #666;
@@ -2825,7 +2825,7 @@ h1.entry-title {
 }
 
 .entry-content p {
-    line-height: 30px
+    line-height: 25px
 }
 
 .entry-content hr {
